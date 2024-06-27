@@ -14,14 +14,23 @@
     border-radius: 5px;
 }
 
+.search:hover{
+    background-color: rgb(86, 200, 237);
+}
+
 .nav-item {
-    padding-right: 75px;
+    padding-right: 70px;
     padding-left: 10px;
 }
 
+form{
+    margin-top: 10px;
+    margin-right: 20px;
+}
 .post {
     position: absolute;
     top: 80px;
+    left: 20px;
 }
 
 .posting {
@@ -40,41 +49,50 @@
     width: 100%;
     max-width: 750px;
     border-radius: 20px;
-   
 }
 
 .blog {
     position: absolute;
     top: 100px;
-    left: 830px;
-    padding-top: 10px;
+    left: 845px;
+    padding-top: 20px;
     padding-left: 30px;
     border-radius: 20px;
     background-color: rgb(168, 93, 118);
     height: 250px;
-    width: 365px;
+    width: 388px;
 }
 
 .join {
     position: absolute;
+    border: none;
     border-radius: 10px;
     top: 200px;
-    left: 230px;
+    left: 270px;
     font-size: small;
+    padding: 8px;
+    color: red;
+}
+
+.join:hover{
+    background-color: blue;
+    color: white;
+    font-size: medium;
+    font-weight: bold;
 }
 
 .second {
     position: absolute;
-    width: 370px;
-    max-width: 380px;
+    width: 395px;
+    max-width: 400px;
     height: 300px;
     top: 360px;
-    left: 825px;
+    left: 841px;
     border-radius: 25px;
 }
 
 
-/* Media queries to control layout on smaller screens */
+/* Media queries */
 @media (max-width: 992px) {
     .images {
         display: flex;
