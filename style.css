@@ -1,0 +1,164 @@
+.container-fluid {
+    position: relative;
+    padding: 0 15px;
+}
+
+.paragraphs {
+    display: inline;
+    font-weight: bold;
+}
+
+.search {
+    border: 1px solid;
+    padding: 8px 11px 11px 11px;
+    border-radius: 5px;
+}
+
+.nav-item {
+    padding-right: 75px;
+    padding-left: 10px;
+}
+
+.post {
+    position: absolute;
+    top: 80px;
+}
+
+.posting {
+    font-size: 20px;
+}
+
+.arrow {
+    font-size: 3px;
+}
+
+.images {
+    margin-top: 120px;
+}
+
+.lemon {
+    width: 100%;
+    max-width: 750px;
+    border-radius: 20px;
+   
+}
+
+.blog {
+    position: absolute;
+    top: 100px;
+    left: 830px;
+    padding-top: 10px;
+    padding-left: 30px;
+    border-radius: 20px;
+    background-color: rgb(168, 93, 118);
+    height: 250px;
+    width: 365px;
+}
+
+.join {
+    position: absolute;
+    border-radius: 10px;
+    top: 200px;
+    left: 230px;
+    font-size: small;
+}
+
+.second {
+    position: absolute;
+    width: 370px;
+    max-width: 380px;
+    height: 300px;
+    top: 360px;
+    left: 825px;
+    border-radius: 25px;
+}
+
+
+/* Media queries to control layout on smaller screens */
+@media (max-width: 992px) {
+    .images {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .lemon, .blog {
+        position: static;
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .second{
+        position: static;
+        width: 1300px;
+        margin-top: 20px;
+    }
+
+    .blog {
+        background-color: rgb(168, 93, 118);
+        padding: 20px;
+        border-radius: 20px;
+    }
+
+    .join {
+        position: static;
+        margin-top: 20px;
+    }
+}
+
+@media (max-width: 768px) {
+    .images {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .lemon, .blog {
+        position: static;
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .blog {
+        background-color: rgb(168, 93, 118);
+        padding: 20px;
+        border-radius: 20px;
+    }
+
+    .join {
+        position: static;
+        margin-top: 20px;
+    }
+    .second{
+        position: static;
+        width: 1300px;
+        margin-top: 20px;
+    }
+
+}
+
+@media (max-width: 576px) {
+    .images {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .lemon, .second, .blog {
+        position: static;
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .blog {
+        background-color: rgb(168, 93, 118);
+        padding: 20px;
+        border-radius: 20px;
+    }
+
+    .join {
+        position: static;
+        margin-top: 20px;
+    }
+   
+}
